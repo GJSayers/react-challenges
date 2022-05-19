@@ -1,7 +1,7 @@
 import css from './App.module.css';
 import Sidebar from "./components/Sidebar";
 import Content from './components/Content';
-import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       {/* Add your components here */}
       <Sidebar />
       <Content />
-      <ControlledForm />
+      <UncontrolledForm />
     
     </div>
   );
