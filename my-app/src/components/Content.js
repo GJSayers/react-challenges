@@ -47,7 +47,8 @@ export class Content extends Component {
                     
                     {
                         this.state.isLoaded ?
-                        <PostItem savedPosts={savedPosts} /> : <Loader />
+                        <PostItem savedPosts={savedPosts} />
+                        : <Loader />
 
 
                     }
