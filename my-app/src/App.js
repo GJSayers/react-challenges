@@ -6,6 +6,9 @@ import SearchBar from './components/SearchBar';
 import ControlledFormHooks from './components/ControlledFormHooks';
 import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
+import ClassCounter from './components/ClassCounter';
+import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 
 function App() {
   return (
@@ -14,15 +17,15 @@ function App() {
       <div>
       <Sidebar />
       </div>
-      
+
       <div>
       <Content />
       </div>
-      
+
       <div>
       {/* <UncontrolledForm /> */}
       </div>
-      
+
       <div>
       {/* <SearchBar /> */}
       </div>
@@ -32,11 +35,20 @@ function App() {
       <div>
       <UseStateWithArrays />
       </div>
-      <div>
-      <UseStateWithObjects />
+      {/* <div>
+       <UseStateWithObjects />
       </div>
-      
-    
+      <div>
+      <ClassCounter />
+      </div> */}
+      {/* <div>
+      <UseEffectCounter />
+      </div> */}
+      <div>
+      <UseEffectCounterContainer />
+      </div>
+
+
     </div>
   );
 }
