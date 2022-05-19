@@ -4,6 +4,7 @@ import Content from './components/Content';
 import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
 import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div>
       <ControlledFormHooks />
+      </div>
+      <div>
+      <UseStateWithArrays />
       </div>
       
     
