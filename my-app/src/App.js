@@ -12,6 +12,7 @@ import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import ContentHooks from "./components/ContentHooks";
 import HTTPRequests from "./components/HTTPRequests";
+import HTTPPost from "./components/HTTPPost";
 
 function App() {
   return (
@@ -62,8 +63,12 @@ function App() {
         <ContentHooks />
       </div>
 
-      <div className="App">
+      {/* <div className="App">
         <HTTPRequests />
+      </div> */}
+
+      <div className="App">
+        <HTTPPost />
       </div>
 
     </div>
