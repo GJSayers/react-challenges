@@ -1,4 +1,5 @@
-import css from './App.module.css';
+import "./App.css";
+import css from "./App.module.css"
 import Sidebar from "./components/Sidebar";
 import Content from './components/Content';
 import UncontrolledForm from './components/UncontrolledForm';
@@ -12,7 +13,7 @@ import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 
 function App() {
   return (
-    <div className={css.App}>
+    <div className="App">
       {/* Add your components here */}
       <div>
       <Sidebar />
