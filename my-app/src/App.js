@@ -10,18 +10,20 @@ import UseStateWithObjects from './components/UseStateWithObjects';
 import ClassCounter from './components/ClassCounter';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import ContentHooks from "./components/ContentHooks";
 
 function App() {
   return (
     <div className="App">
       {/* Add your components here */}
+
       <div>
       <Sidebar />
       </div>
 
-      <div>
+      {/* <div>
       <Content />
-      </div>
+      </div> */}
 
       <div>
       {/* <UncontrolledForm /> */}
@@ -30,25 +32,34 @@ function App() {
       <div>
       {/* <SearchBar /> */}
       </div>
-      <div>
+
+      {/* <div>
       <ControlledFormHooks />
       </div>
+
       <div>
       <UseStateWithArrays />
-      </div>
+      </div> */}
+
       {/* <div>
        <UseStateWithObjects />
       </div>
+
       <div>
       <ClassCounter />
       </div> */}
+
       {/* <div>
       <UseEffectCounter />
       </div> */}
-      <div>
-      <UseEffectCounterContainer />
-      </div>
 
+      {/* <div>
+      <UseEffectCounterContainer />
+      </div> */}
+
+      <div>
+        <ContentHooks />
+      </div>
 
     </div>
   );
