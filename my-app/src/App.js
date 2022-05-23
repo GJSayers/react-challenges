@@ -11,6 +11,7 @@ import ClassCounter from './components/ClassCounter';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import ContentHooks from "./components/ContentHooks";
+import HTTPRequests from "./components/HTTPRequests";
 
 function App() {
   return (
@@ -59,6 +60,10 @@ function App() {
 
       <div>
         <ContentHooks />
+      </div>
+
+      <div className="App">
+        <HTTPRequests />
       </div>
 
     </div>
