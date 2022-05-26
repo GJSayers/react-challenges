@@ -21,7 +21,7 @@ export class ContentAPI extends Component {
     }
 
     async fetchImages() {
-        const response = await axios.get(`https://pixabay.com/api/?key=${API_KEY}&per_page=100&q=yellow+flowers`);
+        const response = await axios.get(`https://pixabay.com/api/?key=${API_KEY}&per_page=100&safesearch=true&editors_choice=true&orientation=horizontal`);
         const fetchedPosts = response.data.hits;
 
         this.setState({

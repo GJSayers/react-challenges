@@ -15,71 +15,28 @@ import HTTPRequests from "./components/HTTPRequests";
 import HTTPPost from "./components/HTTPPost";
 import HTTPHooks from "./components/HTTPHooks";
 import ContentAPI from "./components/ContentAPI";
-import PostItemAPI from "./components/PostItemAPI";
+// import PostItemAPI from "./components/PostItemAPI";
 
 function App() {
   return (
-    <div className="App">
+    <div className="{css.App}">
       {/* Add your components here */}
-      {/* 
-      <div>
-      <Sidebar />
-      </div> */}
-
-      {/* <div>
-      <Content />
-      </div> */}
-
-      <div>
-      {/* <UncontrolledForm /> */}
-      </div>
-
-      <div>
-      {/* <SearchBar /> */}
-      </div>
-
-      {/* <div>
-      <ControlledFormHooks />
-      </div>
-
-      <div>
-      <UseStateWithArrays />
-      </div> */}
-
-      {/* <div>
-       <UseStateWithObjects />
-      </div>
-
-      <div>
-      <ClassCounter />
-      </div> */}
-
-      {/* <div>
-      <UseEffectCounter />
-      </div> */}
-
-      {/* <div>
-      <UseEffectCounterContainer />
-      </div> */}
-
-      {/* <div>
-        <ContentHooks />
-      </div> */}
-
-      {/* <div className="App">
-        <HTTPRequests />
-      </div> */}
-
-      {/* <div className="App">
-        <HTTPPost />
-      </div> */}
-
-      {/* <div className="App">
-        <HTTPHooks />
-      </div> */}
-      
-        <ContentAPI />      
-        <PostItemAPI />
+        <Sidebar / >
+        {/* <Content / >
+        <UncontrolledForm /> 
+        <SearchBar / >
+        <ControlledFormHooks / >
+        <UseStateWithArrays / >
+        <UseStateWithObjects / >
+        <ClassCounter / >
+        <UseEffectCounter / >
+        <UseEffectCounterContainer / >
+        <ContentHooks / >
+        <HTTPRequests / >
+        <HTTPPost / >
+        <HTTPHooks / > */}
+        <ContentAPI / >
+        {/* <PostItemAPI / > */}
       
     </div>
   );
